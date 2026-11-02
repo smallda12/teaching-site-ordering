@@ -6,7 +6,7 @@
 <title>排順序｜教學網</title>
 <!-- 內嵌的分頁小圖示，順便避免每次載入都對 favicon.ico 發出 404 -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🔢</text></svg>">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -219,11 +219,14 @@
 <!-- ══════════ 七、延伸學習（外部影片，需要網路） ══════════ -->
 <section class="分區" id="區延伸">
   <h2>🔗 延伸學習</h2>
-  <p class="區說明">這裡是本單元相關的<b>外部教學影片</b>，可以讓學生課後自己再看一次。</p>
-  <!-- 本單元 4 個重點（認識前後／認識上下／認識左右／排列數字順序）已查過均一教育平台（含因材網）、
-       臺北酷課雲、KidPro、Tina's Channel、公視點點愛、國家教育研究院愛學網，候選皆有明確風險，
-       老師裁示「不符合就不要勉強」，本學期暫不放延伸學習區。data.js 的 延伸影片 為空陣列時
-       app.js 會自動移除本分區與導覽鈕，這段標記留著不影響畫面——之後真的找到合適影片再填回來即可。 -->
+  <p class="區說明">這裡是本單元相關的<b>外部教學影片</b>，可以讓學生課後自己再看一次。<br>
+    影片來自教育部國教署（手語詞彙）、momokids 親子台、均一教育平台。</p>
+  <!-- 2026-11-02 補找：重點 1、2、4 共 12 支（國教署手語 9、momokids 2、均一 1）。
+       重點 3「認識左右」沒有影片：查證後查無合適素材，是預期行為不是漏掉——國教署手語「左邊」「右邊」
+       是不翻轉的真人示範（右手往畫面左側伸出），與本單元「畫面左邊／畫面右邊、不用人物的左右手」
+       相反；兒歌與兒童節目教的是自己的左右手。候選與逐支理由見製作資料夾
+       `_regen\_校對\延伸影片候選_20261102.md`。data.js 的 延伸影片 為空陣列時
+       app.js 會自動移除本分區與導覽鈕。 -->
   <p class="小字 延伸提醒">⚠️ 點下去會<b>開新分頁到 YouTube</b>（需要網路，也會看到 YouTube 的推薦影片），
     建議由老師或家長陪同觀看。網站其他分區不受影響，沒有網路也能正常上課。</p>
 
@@ -292,10 +295,10 @@
 <canvas id="畫布" class="畫布"></canvas>
 
 <!-- 改版時把 v 加 1，避免瀏覽器沿用舊快取 -->
-<script src="js/config.js?v=4"></script>
-<script src="js/data.js?v=4"></script>
-<script src="js/speech.js?v=4"></script>
-<script src="js/tools.js?v=4"></script>
-<script src="js/app.js?v=4"></script>
+<script src="js/config.js?v=5"></script>
+<script src="js/data.js?v=5"></script>
+<script src="js/speech.js?v=5"></script>
+<script src="js/tools.js?v=5"></script>
+<script src="js/app.js?v=5"></script>
 </body>
 </html>
